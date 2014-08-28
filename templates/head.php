@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
   <link rel="apple-touch-icon" href="/assets/img/m.touch.icon.png">
   <link rel="apple-touch-startup-image" href="/assets/img/m.touch.startup.png">
-  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="no">
   <meta name="mobile-web-app-capable" content="no">
   <meta name="apple-mobile-web-app-title" content="Survey">
   <!-- iOS 6 & 7 iPad (retina, portrait) -->
@@ -39,6 +39,8 @@
        media="(device-width: 320px) and (device-height: 480px)
           and (-webkit-device-pixel-ratio: 1)"
        rel="apple-touch-startup-image">
+       
+  <?php wp_head(); ?>
   
   <link rel="alternate" type="application/rss+xml" title="<?php echo get_bloginfo('name'); ?> Feed" href="<?php echo esc_url(get_feed_link()); ?>">
 </head>
