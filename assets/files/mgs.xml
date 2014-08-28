@@ -1,0 +1,875 @@
+<?xml version="1.0" encoding="utf-8"?>
+<survey>
+	<question>
+		<number>1</number>
+		<text>I quickly and accurately identify good and evil and hate evil.</text>
+	</question>
+	<question>
+		<number>2</number>
+		<text>I easily recognise practical needs and am quick to meet them.</text>
+	</question>
+	<question>
+		<number>3</number>
+		<text>I present truth in a logical, systematic way.</text>
+	</question>
+	
+	<question>
+		<number>4</number>
+		<text>I love to encourage others to live victoriously.</text>
+	</question>
+	
+	<question>
+		<number>5</number>
+		<text>I give freely of money, possessions, time, energy and love.</text>
+	</question>
+	
+	<question>
+		<number>6</number>
+		<text>I am highly motivated to organise that for which I am responsible.</text>
+	</question>
+	
+	<question>
+		<number>7</number>
+		<text>I have tremendous capacity to show love.</text>
+	</question>
+	
+	<question>
+		<number>8</number>
+		<text>I see everything as black or white; no grey or indefinite areas.</text>
+	</question>
+	
+	<question>
+		<number>9</number>
+		<text>I especially enjoy manual projects, jobs and functions.</text>
+	</question>
+	
+	<question>
+		<number>10</number>
+		<text>I validate truth by checking out the facts.</text>
+	</question>
+	
+	<question>
+		<number>11</number>
+		<text>I want a visible response when teaching or speaking.</text>
+	</question>
+	
+	<question>
+		<number>12</number>
+		<text>I love to give without others knowing about it.</text>
+	</question>
+	
+	<question>
+		<number>13</number>
+		<text>I express ideas and organisation in ways that communicate clearly.</text>
+	</question>
+	
+	<question>
+		<number>14</number>
+		<text>I always look for good in people.</text>
+	</question>
+	
+	<question>
+		<number>15</number>
+		<text>I easily perceive the character of individuals and groups.</text>
+	</question>
+	
+	<question>
+		<number>16</number>
+		<text>I keep everything in meticulous order.</text>
+	</question>
+	
+	<question>
+		<number>17</number>
+		<text>I love to study and do research.</text>
+	</question>
+	
+	<question>
+		<number>18</number>
+		<text>I prefer to apply truth rather than research it.</text>
+	</question>
+	
+	<question>
+		<number>19</number>
+		<text>I want to feel a part of the ministries to which I give.</text>
+	</question>
+	
+	<question>
+		<number>20</number>
+		<text>I prefer to be under authority in order to have authority.</text>
+	</question>
+	
+	<question>
+		<number>21</number>
+		<text>I can sense the spiritual and emotional atmosphere of a group or individual.</text>
+	</question>
+	
+	<question>
+		<number>22</number>
+		<text>I encourage repentance that produces good fruit.</text>
+	</question>
+	
+	<question>
+		<number>23</number>
+		<text>I am a details person with a good memory.</text>
+	</question>
+	
+	<question>
+		<number>24</number>
+		<text>I enjoy word studies.</text>
+	</question>
+	
+	<question>
+		<number>25</number>
+		<text>I prefer systems of information that have a practical application.</text>
+	</question>
+	
+	<question>
+		<number>26</number>
+		<text>I intercede for the needs and the salvation of souls.</text>
+	</question>
+	
+	<question>
+		<number>27</number>
+		<text>I will not take authority unless delegated by those in authority.</text>
+	</question>
+	
+	<question>
+		<number>28</number>
+		<text>I am attracted to people who are hurting or in distress.</text>
+	</question>
+	
+	<question>
+		<number>29</number>
+		<text>I believe the acceptance of difficulties will produce positive personal brokenness.</text>
+	</question>
+	
+	<question>
+		<number>30</number>
+		<text>I enjoy showing hospitality.</text>
+	</question>
+	
+	<question>
+		<number>31</number>
+		<text>I prefer to use biblical illustrations rather than life illustrations.</text>
+	</question>
+	
+	<question>
+		<number>32</number>
+		<text>I love to prescribe precise steps of action to aid personal growth.</text>
+	</question>
+	
+	<question>
+		<number>33</number>
+		<text>I feel delighted when my material gift is an answer to specific prayer.</text>
+	</question>
+	
+	<question>
+		<number>34</number>
+		<text>I will assume responsibility if no specific leadership exists.</text>
+	</question>
+	
+	<question>
+		<number>35</number>
+		<text>I take action to remove hurts and relieve stress in others.</text>
+	</question>
+	
+	<question>
+		<number>36</number>
+		<text>I have only a few or no close friendships.</text>
+	</question>
+	
+	<question>
+		<number>37</number>
+		<text>I will stay with something until it is completed.</text>
+	</question>
+	
+	<question>
+		<number>38</number>
+		<text>I get upset when Scripture is used out of context.</text>
+	</question>
+	
+	<question>
+		<number>39</number>
+		<text>I focus on working with people.</text>
+	</question>
+	
+	<question>
+		<number>40</number>
+		<text>I want gifts that I give to be of high quality.</text>
+	</question>
+	
+	<question>
+		<number>41</number>
+		<text>I especially enjoy working on long-range goals and projects.</text>
+	</question>
+	
+	<question>
+		<number>42</number>
+		<text>I am more concerned for mental and emotional distress than physical distress.</text>
+	</question>
+	
+	<question>
+		<number>43</number>
+		<text>I view the Bible as the basis for truth, belief, action and authority.</text>
+	</question>
+	
+	<question>
+		<number>44</number>
+		<text>I have a hard time saying no to requests for help.</text>
+	</question>
+	
+	<question>
+		<number>45</number>
+		<text>I feel concerned that truth be established in every situation.</text>
+	</question>
+	
+	<question>
+		<number>46</number>
+		<text>I encourage others to develop in their personal ministries.</text>
+	</question>
+	
+	<question>
+		<number>47</number>
+		<text>I give only by the leading of the Holy Spirit.</text>
+	</question>
+	
+	<question>
+		<number>48</number>
+		<text>I am a visionary person with a broad perspective.</text>
+	</question>
+	
+	<question>
+		<number>49</number>
+		<text>I am motivated to help people have right relationships with one another.</text>
+	</question>
+	
+	<question>
+		<number>50</number>
+		<text>I boldly operate on spiritual principles.</text>
+	</question>
+	
+	<question>
+		<number>51</number>
+		<text>I am more interested in meeting the needs of others than my own needs.</text>
+	</question>
+	
+	<question>
+		<number>52</number>
+		<text>I am more objective than subjective.</text>
+	</question>
+	
+	<question>
+		<number>53</number>
+		<text>I find truth in experience and then validate it with Scripture.</text>
+	</question>
+	
+	<question>
+		<number>54</number>
+		<text>I give to support and bless others or to advance a ministry.</text>
+	</question>
+	
+	<question>
+		<number>55</number>
+		<text>I easily facilitate resources and people to accomplish tasks or goals.</text>
+	</question>
+	
+	<question>
+		<number>56</number>
+		<text>I love opportunities to give preference or honour to others.</text>
+	</question>
+	
+	<question>
+		<number>57</number>
+		<text>I am frank, outspoken and don’t mince my words.</text>
+	</question>
+	
+	<question>
+		<number>58</number>
+		<text>I enjoy working on immediate goals rather than long-range goals.</text>
+	</question>
+	
+	<question>
+		<number>59</number>
+		<text>I easily develop and use a large vocabulary.</text>
+	</question>
+	
+	<question>
+		<number>60</number>
+		<text>I love to do personal counselling.</text>
+	</question>
+	
+	<question>
+		<number>61</number>
+		<text>I view hospitality as an opportunity to give.</text>
+	</question>
+	
+	<question>
+		<number>62</number>
+		<text>I enjoy delegating tasks and supervising people.</text>
+	</question>
+	
+	<question>
+		<number>63</number>
+		<text>I easily detect insincerity or wrong motives.</text>
+	</question>
+	
+	<question>
+		<number>64</number>
+		<text>I am very persuasive in my method of speaking.</text>
+	</question>
+	
+	<question>
+		<number>65</number>
+		<text>I show love for others in deeds and actions more than words.</text>
+	</question>
+	
+	<question>
+		<number>66</number>
+		<text>I emphasise the facts and the accuracy of words.</text>
+	</question>
+	
+	<question>
+		<number>67</number>
+		<text>I will discontinue personal counselling of others if no effort to change is seen.</text>
+	</question>
+	
+	<question>
+		<number>68</number>
+		<text>I handle finances with wisdom and frugality.</text>
+	</question>
+	
+	<question>
+		<number>69</number>
+		<text>I will endure criticism in order to accomplish the ultimate task.</text>
+	</question>
+	
+	<question>
+		<number>70</number>
+		<text>I am drawn to others with the gift of compassion.</text>
+	</question>
+	
+	<question>
+		<number>71</number>
+		<text>I grieve deeply over the sins of others.</text>
+	</question>
+	
+	<question>
+		<number>72</number>
+		<text>I need to feel appreciated.</text>
+	</question>
+	
+	<question>
+		<number>73</number>
+		<text>I check out the source of knowledge of others who teach.</text>
+	</question>
+	
+	<question>
+		<number>74</number>
+		<text>I am fluent in communication.</text>
+	</question>
+	
+	<question>
+		<number>75</number>
+		<text>I quickly volunteer to help where a need is seen.</text>
+	</question>
+	
+	<question>
+		<number>76</number>
+		<text>I have a great zeal and enthusiasm for whatever I am involved in.</text>
+	</question>
+	
+	<question>
+		<number>77</number>
+		<text>I love to do thoughtful things for others.</text>
+	</question>
+	
+	<question>
+		<number>78</number>
+		<text>I am eager to see my own blind spots and to help others see theirs too.</text>
+	</question>
+	
+	<question>
+		<number>79</number>
+		<text>I tend to do more than asked to.</text>
+	</question>
+	
+	<question>
+		<number>80</number>
+		<text>I prefer to teach believers rather than to engage in evangelism.</text>
+	</question>
+	
+	<question>
+		<number>81</number>
+		<text>I view trials as opportunities to produce personal growth.</text>
+	</question>
+	
+	<question>
+		<number>82</number>
+		<text>In the area of giving I seek confirmation on the amount to give.</text>
+	</question>
+	
+	<question>
+		<number>83</number>
+		<text>I find greatest fulfilment and joy in working to accomplish goals.</text>
+	</question>
+	
+	<question>
+		<number>84</number>
+		<text>I am trusting and trustworthy.</text>
+	</question>
+	
+	<question>
+		<number>85</number>
+		<text>I desire above all else to see God’s plan worked out in all situations.</text>
+	</question>
+	
+	<question>
+		<number>86</number>
+		<text>I feel greatest joy in doing something that is helpful.</text>
+	</question>
+	
+	<question>
+		<number>87</number>
+		<text>I feel Bible study is foundational to the operation of all the gifts.</text>
+	</question>
+	
+	<question>
+		<number>88</number>
+		<text>I accept people as they are without judging them.</text>
+	</question>
+	
+	<question>
+		<number>89</number>
+		<text>I have a strong belief in tithing and in giving in addition to tithing.</text>
+	</question>
+	
+	<question>
+		<number>90</number>
+		<text>I am willing to let others get the credit in order to get the job done.</text>
+	</question>
+	
+	<question>
+		<number>91</number>
+		<text>I avoid conflicts and confrontations.</text>
+	</question>
+	
+	<question>
+		<number>92</number>
+		<text>I strongly promote the spiritual growth of groups and individuals.</text>
+	</question>
+	
+	<question>
+		<number>93</number>
+		<text>I do not want to lead others or projects.</text>
+	</question>
+	
+	<question>
+		<number>94</number>
+		<text>I solve problems by starting with scriptural principles.</text>
+	</question>
+	
+	<question>
+		<number>95</number>
+		<text>I am greatly loved because of my positive attitude.</text>
+	</question>
+	
+	<question>
+		<number>96</number>
+		<text>I focus on sharing the Gospel.</text>
+	</question>
+	
+	<question>
+		<number>97</number>
+		<text>I prefer to move onto a new challenge once something is completed.</text>
+	</question>
+	
+	<question>
+		<number>98</number>
+		<text>I don’t like to be rushed into a job or activity.</text>
+	</question>
+	
+	<question>
+		<number>99</number>
+		<text>I am called to intercession.</text>
+	</question>
+	
+	<question>
+		<number>100</number>
+		<text>I have high energy levels.</text>
+	</question>
+	
+	<question>
+		<number>101</number>
+		<text>I am intellectually sharp.</text>
+	</question>
+	
+	<question>
+		<number>102</number>
+		<text>I prefer to witness with my life rather than verbal witnessing.</text>
+	</question>
+	
+	<question>
+		<number>103</number>
+		<text>I believe God is the source of my supply.</text>
+	</question>
+	
+	<question>
+		<number>104</number>
+		<text>I constantly write notes to myself.</text>
+	</question>
+	
+	<question>
+		<number>105</number>
+		<text>I am usually cheerful and joyful.</text>
+	</question>
+	
+	<question>
+		<number>106</number>
+		<text>I feel the need to verbalise or dramatise what ‘I see’.</text>
+	</question>
+	
+	<question>
+		<number>107</number>
+		<text>I cannot stand to be around clutter.</text>
+	</question>
+	
+	<question>
+		<number>108</number>
+		<text>I am self-disciplined.</text>
+	</question>
+	
+	<question>
+		<number>109</number>
+		<text>I make decisions easily.</text>
+	</question>
+	
+	<question>
+		<number>110</number>
+		<text>I am very industrious with a tendency towards success.</text>
+	</question>
+	
+	<question>
+		<number>111</number>
+		<text>I am a natural and capable leader.</text>
+	</question>
+	
+	<question>
+		<number>112</number>
+		<text>I am ruled by the heart rather than the head.</text>
+	</question>
+	
+	<question>
+		<number>113</number>
+		<text>I tend to be introspective.</text>
+	</question>
+	
+	<question>
+		<number>114</number>
+		<text>I tend to be a perfectionist.</text>
+	</question>
+	
+	<question>
+		<number>115</number>
+		<text>I am emotionally self-controlled.</text>
+	</question>
+	
+	<question>
+		<number>116</number>
+		<text>I always complete what is started.</text>
+	</question>
+	
+	<question>
+		<number>117</number>
+		<text>I have natural and effective business ability.</text>
+	</question>
+	
+	<question>
+		<number>118</number>
+		<text>I know when to keep old methods going and when to introduce new ones.</text>
+	</question>
+	
+	<question>
+		<number>119</number>
+		<text>I rejoice to see others blessed and grieved to see others hurt.</text>
+	</question>
+	
+	<question>
+		<number>120</number>
+		<text>I have strong opinions and convictions.</text>
+	</question>
+	
+	<question>
+		<number>121</number>
+		<text>I view serving to be of primary importance in life.</text>
+	</question>
+	
+	<question>
+		<number>122</number>
+		<text>I have only a select circle of friends.</text>
+	</question>
+	
+	<question>
+		<number>123</number>
+		<text>I want to clear up problems with others quickly.</text>
+	</question>
+	
+	<question>
+		<number>124</number>
+		<text>I like to get the best value for the money spent.</text>
+	</question>
+	
+	<question>
+		<number>125</number>
+		<text>I enjoy working with and being around people.</text>
+	</question>
+	
+	<question>
+		<number>126</number>
+		<text>I am a crusader for good causes.</text>
+	</question>
+	
+	<question>
+		<number>127</number>
+		<text>I have strong personal standards.</text>
+	</question>
+	
+	<question>
+		<number>128</number>
+		<text>I prefer doing a job to delegating it.</text>
+	</question>
+	
+	<question>
+		<number>129</number>
+		<text>I have strong convictions and opinions based on investigation of facts.</text>
+	</question>
+	
+	<question>
+		<number>130</number>
+		<text>I expect a lot of myself and of others.</text>
+	</question>
+	
+	<question>
+		<number>131</number>
+		<text>I am definitely not gullible.</text>
+	</question>
+	
+	<question>
+		<number>132</number>
+		<text>I want to see things completed as quickly as possible.</text>
+	</question>
+	
+	<question>
+		<number>133</number>
+		<text>I intercede for the hurts and problems of others.</text>
+	</question>
+	
+	<question>
+		<number>134</number>
+		<text>I desire to be obedient to God at all costs.</text>
+	</question>
+	
+	<question>
+		<number>135</number>
+		<text>I support others who are in leadership.</text>
+	</question>
+	
+	<question>
+		<number>136</number>
+		<text>I believe truth has the intrinsic power to produce change.</text>
+	</question>
+	
+	<question>
+		<number>137</number>
+		<text>I need a ‘sounding board’ for sounding off ideas and thoughts.</text>
+	</question>
+	
+	<question>
+		<number>138</number>
+		<text>I posses both natural and God-given wisdom.</text>
+	</question>
+	
+	<question>
+		<number>139</number>
+		<text>I do not enjoy doing routine tasks.</text>
+	</question>
+	
+	<question>
+		<number>140</number>
+		<text>I take care of my words and actions to avoid hurting others.</text>
+	</question>
+	
+	<question>
+		<number>141</number>
+		<text>I seek God intensely to speak direct messages from Him that edify, comfort and motivate others.</text>
+	</question>
+	
+	<question>
+		<number>142</number>
+		<text>I am prepared to overlook my own personal comfort in order that the needs of others may be met.</text>
+	</question>
+	
+	<question>
+		<number>143</number>
+		<text>I find great delight in explaining the truth of passages of Scripture or scriptural concepts in a way people can clearly understand.</text>
+	</question>
+	
+	<question>
+		<number>144</number>
+		<text>My greatest desire is to see scriptural principles put into action, and dislike teaching that does not give practical direction.</text>
+	</question>
+	
+	<question>
+		<number>145</number>
+		<text>I am able to and enjoy managing my financial affairs efficiently so that I can give generously to the Lord’s work.</text>
+	</question>
+	
+	<question>
+		<number>146</number>
+		<text>I find planning jobs for others and then supplying with the details to enable them to work efficiently, easy and enjoyable.</text>
+	</question>
+	
+	<question>
+		<number>147</number>
+		<text>I enjoy visiting those in hospital or shut-ins.</text>
+	</question>
+	
+	<question>
+		<number>148</number>
+		<text>I often have a strong sense of what God wants to say and I am prepared to share it even if at times it confronts, irritates, shakes or challenges them.</text>
+	</question>
+	
+	<question>
+		<number>149</number>
+		<text>I enjoy doing work that is practical, behind the scenes work, particularly if it means that others, especially key people, can be released to do the tasks God has called them to do.</text>
+	</question>
+	
+	<question>
+		<number>150</number>
+		<text>I enjoy doing hours of research on a subject, and love passing on to others as many facts about a subject as I can.</text>
+	</question>
+	
+	<question>
+		<number>151</number>
+		<text>I love to get alongside people and help them grow, but can get discouraged with those who seem to be wasting my time.</text>
+	</question>
+	
+	<question>
+		<number>152</number>
+		<text>I am cheerful about giving material assets so that the Lord’s work can be furthered.</text>
+	</question>
+	
+	<question>
+		<number>153</number>
+		<text>I can visualise the result of a major undertaking, and what it will take to accomplish it, but don’t like being involved with petty details as my focus tends to be on the final product.</text>
+	</question>
+	
+	<question>
+		<number>154</number>
+		<text>I have great concern for those in trouble.</text>
+	</question>
+	
+	<question>
+		<number>155</number>
+		<text>I am more loyal to the truth than I am to people and am quite happy to suffer rejection for the sake of truth.</text>
+	</question>
+	
+	<question>
+		<number>156</number>
+		<text>When I do a job I need to know that it has been appreciated and it has been a blessing to others. I need encouragement to motivate me to continue reaching out.</text>
+	</question>
+	
+	<question>
+		<number>157</number>
+		<text>I am concerned that truth should be presented clearly and logically and in balance with proper attention given to the meaning of words, so that it will be understood correctly.</text>
+	</question>
+	
+	<question>
+		<number>158</number>
+		<text>I get pleasure out of motivating people to have a vision for their spiritual lives and enjoy working out projects and ways for them to reach their goals.</text>
+	</question>
+	
+	<question>
+		<number>159</number>
+		<text>I am deeply concerned when the work of the Lord is hindered or people unable to function in ministry effectively because of a lack of finance.</text>
+	</question>
+	
+	<question>
+		<number>160</number>
+		<text>I am very conscious of the need to have efficient running administration so that every aspect of a project runs smoothly.</text>
+	</question>
+	
+	<question>
+		<number>161</number>
+		<text>I work happily with those who are ignored by the majority, and find myself naturally drawn to these people.</text>
+	</question>
+	
+	<question>
+		<number>162</number>
+		<text>I can usually detect when someone or something is fake, and have a strong desire to bring out the truth of the situation, even if it could possibly mean offending the person.</text>
+	</question>
+	
+	<question>
+		<number>163</number>
+		<text>I have an ability to see the practical needs that others don’t see and when meeting those needs, I often like to add extra touches to bless those I am working for.</text>
+	</question>
+	
+	<question>
+		<number>164</number>
+		<text>I am diligent in my study of the Bible and desire to gain as much knowledge as I can.</text>
+	</question>
+	
+	<question>
+		<number>165</number>
+		<text>I am at my best when helping those who feel like giving up or who have been spiritually wounded.</text>
+	</question>
+	
+	<question>
+		<number>166</number>
+		<text>I am careful with money and continually pray over its proper distribution in the work of the Lord.</text>
+	</question>
+	
+	<question>
+		<number>167</number>
+		<text>I enjoy coordinating the efforts of many to reach a common goal and can inspire and motivate my workers to action.</text>
+	</question>
+	
+	<question>
+		<number>168</number>
+		<text>I am able to relate to others who are emotionally hurting and gain satisfaction from being able to help them.</text>
+	</question>
+	
+	<question>
+		<number>169</number>
+		<text>I find it relatively easy to sense what God wants to do at any point in a meeting, and have a strong desire to share these thoughts verbally in a prophetic message.</text>
+	</question>
+	
+	<question>
+		<number>170</number>
+		<text>I have a great ability/desire to find out and remember the special interests and occasions of the people I relate to so that I can use that knowledge to make those occasions special.</text>
+	</question>
+	
+	<question>
+		<number>171</number>
+		<text>When I hear people making important statements, I have a desire to verify them and also have a desire to find out the qualifications of those who teach me.</text>
+	</question>
+	
+	<question>
+		<number>172</number>
+		<text>I am actively aware of the things that hold people back in their spiritual development and long to help them overcome their problems.</text>
+	</question>
+	
+	<question>
+		<number>173</number>
+		<text>I have no problem in fully entrusting my assets to others for the work of the ministry.</text>
+	</question>
+	
+	<question>
+		<number>174</number>
+		<text>I can break down a large task into achievable goals and delegate those jobs to others.</text>
+	</question>
+	
+	<question>
+		<number>175</number>
+		<text>I readily find myself sympathising for the misfortunes of others.</text>
+	</question>
+</survey>
