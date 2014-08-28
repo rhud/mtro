@@ -48,8 +48,14 @@ Template Name: MOTIVATIONAL GIFTS SURVEY
 	$survey = simplexml_load_string($output);
 	
 	foreach($survey->children() as $child) {
+		$oe = $child->number % 2;
+		if($oe == 0) {
+			$class = "even";
+		} else {
+			$class = "odd";
+		}
 		?>
-		<div class="wrap survey" role="document">	
+		<div class="wrap survey <?=$class;?>" role="document">	
 			<div class="container">
 				<p><span><?=$child->number;?>.</span> <?=$child->text;?></p>
 				<div id="q<?=$child->number;?>" class="btn-group btn-toggle" data-toggle="buttons">

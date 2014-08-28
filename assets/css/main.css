@@ -6820,6 +6820,12 @@ header .container div.percentage {
 .wrap.intro .btn-group {
   margin: 20px 0px;
 }
+.wrap.survey.odd {
+  background: white;
+}
+.wrap.survey.even {
+  background: #F6F6F6;
+}
 .wrap.submit .container {
   padding: 0px 15px;
 }
