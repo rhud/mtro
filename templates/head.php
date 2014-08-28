@@ -7,8 +7,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
   <link rel="apple-touch-icon" href="/assets/img/m.touch.icon.png">
   <link rel="apple-touch-startup-image" href="/assets/img/m.touch.startup.png">
-  <meta name="apple-mobile-web-app-capable" content="no">
-  <meta name="mobile-web-app-capable" content="no">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-title" content="Survey">
   <!-- iOS 6 & 7 iPad (retina, portrait) -->
  <link href="/assets/img/apple-touch-startup-image-1536x2008.png"
