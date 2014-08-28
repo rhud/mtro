@@ -6,7 +6,7 @@
   <title><?php wp_title('|', true, 'right'); ?></title>
   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
   <link rel="apple-touch-icon" href="/assets/img/m.touch.icon.png">
-  <link rel="apple-touch-startup-image" href="/assets/img/startup.png">
+  <link rel="apple-touch-startup-image" href="/assets/img/m.touch.startup.png">
   <meta name="apple-mobile-web-app-capable" content="yes">
   
   <?php wp_head(); ?>
