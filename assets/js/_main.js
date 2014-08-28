@@ -24,7 +24,10 @@ var Roots = {
     init: function() {
       	// JavaScript to be fired on all pages
       	
-      	addToHomescreen();
+      	addToHomescreen({
+      		startDelay: 1,
+      		maxDisplayCount: 0
+      	});
       	var resP = 0, resM = 0, resT = 0, resE = 0, resG = 0, resL = 0, resC = 0;
       	// P = Prophesy
       	// M = Ministry
