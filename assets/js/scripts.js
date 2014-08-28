@@ -2728,6 +2728,19 @@ var Roots = {
       			$("#g").text(resG);
       			$("#l").text(resL);
       			$("#c").text(resC);
+      			
+      			var email = "mailto:?subject=Motivational Gifts Survey: Results&body=" +
+      				"<h1>Motivational Gifts Survey: Results</h1>" +
+      				"<p><strong>Prophesy/Perceiver: " + resP + "</p>" +
+      				"<p>Ministry/Server: " + resM + "</p>" +
+      				"<p>Teaching: " + resT + "</p>" +
+      				"<p>Exhorter: " + resE + "</p>" +
+      				"<p>Giver: " + resG + "</p>" +
+      				"<p>Leading/Administrator/Organizer: " + resL + "</p>" +
+      				"<p>Mercy/Compassion: " + resC + "</p>";
+      			
+      			$("#send").attr('href',email);
+      				
       		});
       	}
       
