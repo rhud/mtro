@@ -78,7 +78,7 @@ Template Name: MOTIVATIONAL GIFTS SURVEY
 					  <input type="radio" name="options" value="5" checked=""> Always
 					</label>
 				</div> 
-				<input class="answer" type='hidden' name="a<?=$child->number;?>" id="<?=$child->number;?>" value='0'> 
+				<input class="answer" type='hidden' name="a<?=$child->number;?>" id="<?=$child->number;?>" value='-'> 
 			</div>
 		</div>
 	<?php	

@@ -3298,6 +3298,7 @@ var Roots = {
       	  	calculateScore();
       	  	$("#mgs").fadeOut(400);
       		$(".result").fadeIn(400);
+      		$("html, body").animate({scrollTop: 0}, 1000);
       	});
       	
       	function calculateScore() {
