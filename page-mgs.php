@@ -38,7 +38,7 @@ Template Name: MOTIVATIONAL GIFTS SURVEY
 
 <form class="form">
 	<?php
-	$survey = simplexml_load_file("http://mtro.dev/el/mgs.xml");
+	$survey = simplexml_load_file("http://mtro.ch/el/mgs.xml");
 	
 	foreach($survey->children() as $child) {
 		?>
@@ -92,6 +92,7 @@ Template Name: MOTIVATIONAL GIFTS SURVEY
 		<h2>Leading/Administrator/Organizer: <span class="res" id="l"></span></h2>
 		<h2>Mercy/Compassion: <span class="res" id="c"></span></h2>
 		<a href="javascript:window.print()" id="print" class="btn btn-primary btn-lg btn-success" role="button">Print</a>
-		<a href="/mgs" class="btn btn-primary btn-lg btn-success" role="button">Reset Survey</a>
+		<a href="mailto:?subject=MOTIVATIONAL GIFTS SURVEY: Results&body=<h1>TEST</h1><br/>test2" class="btn btn-primary btn-lg btn-success" role="button">Share via Email</a>
+		<a href="/mgs" class="btn btn-primary btn-lg" role="button">Reset Survey</a>
 	</div>
 </div>
