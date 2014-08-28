@@ -45,7 +45,7 @@ Template Name: MOTIVATIONAL GIFTS SURVEY
 	// get the result of http query
 	$output = curl_exec($ch);
 	curl_close($ch);
-	$survey = simplexml_load_file($output);
+	$survey = simplexml_load_string($output);
 	
 	foreach($survey->children() as $child) {
 		?>
