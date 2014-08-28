@@ -42,4 +42,8 @@
   <?php wp_head(); ?>
   
   <link rel="alternate" type="application/rss+xml" title="<?php echo get_bloginfo('name'); ?> Feed" href="<?php echo esc_url(get_feed_link()); ?>">
+  
+  <script>
+  	addToHomescreen();
+  </script>
 </head>
