@@ -39,9 +39,7 @@
           and (-webkit-device-pixel-ratio: 1)"
        rel="apple-touch-startup-image">
   
-  <?php wp_head(); ?>
   
-  <link rel="alternate" type="application/rss+xml" title="<?php echo get_bloginfo('name'); ?> Feed" href="<?php echo esc_url(get_feed_link()); ?>">
   <?php
   // Start or resume session
   session_start(); 
@@ -50,4 +48,8 @@
   $cookieLifetime = 7 * 24 * 60 * 60; // A week in seconds
   setcookie(session_name(),session_id(),time()+$cookieLifetime);
   ?>
+  
+  <?php wp_head(); ?>
+  
+  <link rel="alternate" type="application/rss+xml" title="<?php echo get_bloginfo('name'); ?> Feed" href="<?php echo esc_url(get_feed_link()); ?>">
 </head>
