@@ -32,7 +32,7 @@ var Roots = {
       	// L = Leading
       	// C = Mercy
       	
-      	$(".result").hide();
+      	//$(".result").hide();
       	
       	$(".btn").click(function() {
 			var score = $(this).find("input").val();
