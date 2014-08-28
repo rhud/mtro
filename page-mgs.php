@@ -38,7 +38,7 @@ Template Name: MOTIVATIONAL GIFTS SURVEY
 
 <form class="form">
 	<?php
-	$survey = simplexml_load_file("http://mtro.ch/el/mgs.xml");
+	$survey = simplexml_load_file("/el/mgs.xml");
 	
 	foreach($survey->children() as $child) {
 		?>
