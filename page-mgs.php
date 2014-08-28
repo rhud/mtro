@@ -4,7 +4,7 @@ Template Name: MOTIVATIONAL GIFTS SURVEY
 */
 ?>
 
-
+<div id="mgs">
 <div class="wrap intro" role="document">	
 	<div class="container">
 		<h1>MOTIVATIONAL GIFTS SURVEY</h1>
@@ -78,7 +78,7 @@ Template Name: MOTIVATIONAL GIFTS SURVEY
 					  <input type="radio" name="options" value="5" checked=""> Always
 					</label>
 				</div> 
-				<input class="answer" type='hidden' name="a<?=$child->number;?>" id="<?=$child->number;?>" value='-'> 
+				<input class="answer" type='hidden' name="a<?=$child->number;?>" id="<?=$child->number;?>" value='0'> 
 			</div>
 		</div>
 	<?php	
@@ -93,6 +93,7 @@ Template Name: MOTIVATIONAL GIFTS SURVEY
 	</div>
 	
 </form>
+</div>
 
 <div class="wrap result">
 	<div class="container">

@@ -67,6 +67,7 @@ var Roots = {
       	$(".form").submit(function( event ) {
       	  	event.preventDefault();
       	  	calculateScore();
+      	  	$("#mgs").fadeOut(400);
       		$(".result").fadeIn(400);
       	});
       	
@@ -75,7 +76,7 @@ var Roots = {
       		$(".answer").each(function(index){
       			var a = $(this).val();
       			i = (index + 1) % 7;
-      			console.log("Q. " + index+1 + ": " + a);
+      			console.log("Q. " + parseInt(index + 1) + ": " + a);
       			switch(i) {
       				case 1:
       					resP = resP + parseFloat(a);

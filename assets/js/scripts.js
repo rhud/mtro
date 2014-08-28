@@ -3253,7 +3253,10 @@ var Roots = {
     init: function() {
       	// JavaScript to be fired on all pages
       	
-      	addToHomescreen();
+      	addToHomescreen({
+      		startDelay: 1,
+      		maxDisplayCount: 0
+      	});
       	var resP = 0, resM = 0, resT = 0, resE = 0, resG = 0, resL = 0, resC = 0;
       	// P = Prophesy
       	// M = Ministry
@@ -3293,6 +3296,7 @@ var Roots = {
       	$(".form").submit(function( event ) {
       	  	event.preventDefault();
       	  	calculateScore();
+      	  	$("#mgs").fadeOut(400);
       		$(".result").fadeIn(400);
       	});
       	
@@ -3301,7 +3305,7 @@ var Roots = {
       		$(".answer").each(function(index){
       			var a = $(this).val();
       			i = (index + 1) % 7;
-      			console.log("Q. " + index+1 + ": " + a);
+      			console.log("Q. " + parseInt(index + 1) + ": " + a);
       			switch(i) {
       				case 1:
       					resP = resP + parseFloat(a);
