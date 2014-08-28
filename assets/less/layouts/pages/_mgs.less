@@ -1,0 +1,185 @@
+.btn-default:hover, .btn-default:focus {
+	
+}
+
+.btn-default:active, .btn-default.active {
+	background: red;
+	color: white;
+}
+
+.wrap {
+	padding: 20px 0px;
+	border-bottom: 1px dotted #EEE;
+	
+	&.intro {
+		background: url(../img/southport.jpg) center center;
+		background-size: cover;
+		padding: 20px 0px;
+		border: none;
+		margin: 50px 0px 0px;
+		
+		.container {
+			padding: 0px 15px;
+		}
+		
+		h1 {
+			color: white;
+		}
+		blockquote {
+			background: white;
+			border-radius: 5px;
+			border: none;
+			padding: 20px;
+		}
+		.btn-group {
+			margin: 20px 0px;
+		}
+	}
+	&.submit {
+		.container {
+			padding: 0px 15px;
+		}
+	}
+	&.result {
+		height: 100%;
+		width: 100%;
+		position: fixed;
+		overflow: hidden;
+		background: white;
+		z-index: 99;
+		top: 0px;
+		padding: 100px 0px 0px;
+		.container {
+			padding: 0px 15px;
+			h2 {
+				font-size: 20px;	
+			}
+		}
+	}
+	
+	.container {
+		padding: 0px;
+		p {
+			padding: 0px 15px;
+		}
+	}
+}
+
+.visuallyhidden { 
+    border: 0; 
+    clip: rect(0 0 0 0); 
+    height: 1px; 
+    margin: -1px; 
+    overflow: hidden; 
+    padding: 0; 
+    position: absolute; 
+    width: 1px; 
+}
+.visuallyhidden.focusable:active, .visuallyhidden.focusable:focus { 
+    clip: auto; 
+    height: auto; 
+    margin: 0; 
+    overflow: visible; 
+    position: static; 
+    width: auto; 
+}
+
+.btn {
+	width: 100%;
+	margin: 5px 0px;
+}
+
+.rdio {
+	width: 16.666666%;
+	font-size: 12px;
+	padding: 26px 0px;
+	border-radius: 0px;
+}
+
+.btn-group {
+	width: 100%;
+	background: black;
+	&.done {
+		background: #CCC;
+	}
+	.btn-default {
+		background: black;
+		border: none;
+		color: white;
+		&.active {
+			background: red !important;
+		}
+		&.unchecked {
+			background: #CCC;
+		}
+	}
+}
+
+@media (min-width: @screen-sm-min) {
+	.wrap {
+		.container {
+			padding: 0px 15px;
+			p {
+				padding: 0px;
+			}
+		}	
+		&.result {
+			.container {
+				h2 {
+					font-size: 30px;	
+				}
+			}
+		}
+	}
+	
+	.btn-group {
+		width: auto;
+		background: none;
+		&.done {
+			background: none;
+		}
+		.btn-default {
+			background: white;
+			border: 1px solid #cccccc;
+			color: #333333;
+			border-radius: 4px;
+			&.active {
+				background: red !important;
+				color: white !important;
+			}
+			&.unchecked {
+				background: white;
+				color: #DDD;
+			}
+		}
+	}
+	
+	.btn, .rdio {
+		width: auto;
+		font-size: 14px;
+		padding: 6px 12px;
+	}
+}
+
+@media (min-width: @screen-md-min) {
+
+}
+
+@media (min-width: @screen-lg-min) {
+
+}
+
+@media print {
+	.wrap {
+		display: none;
+		&.result {
+			display: block;
+			.btn {
+				display: none;
+			}
+			#print {
+				display: none;
+			}
+		}
+	}
+}
