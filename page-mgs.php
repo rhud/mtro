@@ -38,6 +38,7 @@ Template Name: MOTIVATIONAL GIFTS SURVEY
 
 <form class="form">
 	<?php
+	ini_set('allow_url_fopen', 'on');
 	$xml = file_get_contents("http://mtro.ch/assets/files/mgs.xml");
 	$survey = simplexml_load_string($xml);
 	
