@@ -38,9 +38,14 @@ Template Name: MOTIVATIONAL GIFTS SURVEY
 
 <form class="form">
 	<?php
-	ini_set('allow_url_fopen', 'on');
-	$xml = file_get_contents("http://mtro.ch/assets/files/mgs.xml");
-	$survey = simplexml_load_string($xml);
+	$feed = 'http://mtro.ch/assets/files/mgs.xml';
+	$ch = curl_init();
+	curl_setopt($ch, CURLOPT_URL, $feed);
+	curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+	// get the result of http query
+	$output = curl_exec($ch);
+	curl_close($ch);
+	$survey = simplexml_load_file($output);
 	
 	foreach($survey->children() as $child) {
 		?>
