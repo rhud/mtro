@@ -46,6 +46,7 @@ function send_email(){
     $name = $_POST['name'];
     $email = $_POST['email'];
     $message = '<h1>Motivational Gifts Survey: Results</h1>' . "\r\n";
+    $message .= '<h3>Name: ' . $name . '</h3><hr/>' . "\r\n";
     $message .= $_POST['message'];	
     
     if(spamcheck($email)){

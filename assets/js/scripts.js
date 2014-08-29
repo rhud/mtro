@@ -3661,7 +3661,6 @@ var Roots = {
       	$("#send").click(function(){
       		var name = $(".name").val();
       		var email = $(".email").val();
-      		$("#submitted-name").text("Name: " + $(".name").val()); 
       		var message = $(".sort").html();
       		
       		var flag = 1;
