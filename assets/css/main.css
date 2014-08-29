@@ -6842,6 +6842,7 @@ header .container div.percentage {
   z-index: 99;
   top: 0px;
   padding: 100px 0px 100px;
+  display: none;
 }
 .wrap.result .container {
   padding: 0px 15px;
