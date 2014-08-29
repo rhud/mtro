@@ -6821,6 +6821,9 @@ header .container div.percentage {
 .wrap.intro .btn-group {
   margin: 20px 0px;
 }
+.wrap.survey {
+  padding: 50px 0px 0px;
+}
 .wrap.survey.odd {
   background: white;
 }
@@ -6839,13 +6842,32 @@ header .container div.percentage {
   z-index: 99;
   top: 0px;
   padding: 100px 0px 100px;
-  display: none;
 }
 .wrap.result .container {
   padding: 0px 15px;
 }
 .wrap.result .container h2 {
   font-size: 20px;
+}
+.wrap.result .container .notes {
+  background: #F9F9F9;
+  border-radius: 4px;
+  border: 1px solid #EEE;
+  padding: 20px;
+  margin: 0px 15px;
+  min-height: 250px;
+}
+.wrap.result .container .notes img {
+  width: 100px;
+  height: auto;
+  -webkit-box-shadow: 0px 2px 5px #999;
+          box-shadow: 0px 2px 5px #999;
+  border-radius: 4px;
+  float: left;
+  margin: 0px 20px 0px 0px;
+}
+.wrap.result .container .notes a.btn {
+  margin-top: 20px;
 }
 .wrap .container {
   padding: 0px;
@@ -6946,8 +6968,14 @@ h3#submitted-name {
   .wrap.intro h1 {
     text-align: left;
   }
+  .wrap.survey {
+    padding: 20px 0px;
+  }
   .wrap.result .container h2 {
     font-size: 30px;
+  }
+  .wrap.result .container .notes a.btn {
+    margin: 0px;
   }
   .btn-group {
     width: auto;
@@ -6985,6 +7013,12 @@ h3#submitted-name {
   }
   .contact {
     width: 200px;
+  }
+}
+@media (min-width: 992px) {
+  .wrap.result .container .notes {
+    margin: 0px;
+    min-height: auto;
   }
 }
 @media print {
