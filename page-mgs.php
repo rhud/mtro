@@ -98,15 +98,27 @@ Template Name: MOTIVATIONAL GIFTS SURVEY
 <div class="wrap result">
 	<div class="container">
 		<h1>MOTIVATIONAL GIFTS SURVEY: Results</h1>
-		<h2>Prophesy/Perceiver: <span class="res" id="p"></span></h2>
-		<h2>Ministry/Server: <span class="res" id="m"></span></h2>
-		<h2>Teaching: <span class="res" id="t"></span></h2>
-		<h2>Exhorter: <span class="res" id="e"></span></h2>
-		<h2>Giver: <span class="res" id="g"></span></h2>
-		<h2>Leading/Administrator/Organizer: <span class="res" id="l"></span></h2>
-		<h2>Mercy/Compassion: <span class="res" id="c"></span></h2>
-		<a href="javascript:window.print()" id="print" class="btn btn-primary btn-lg btn-success" role="button">Print</a>
-		<a href="" id="send" class="btn btn-primary btn-lg btn-success" role="button">Share via Email</a>
-		<a href="/mgs" class="btn btn-primary btn-lg" role="button">Reset Survey</a>
+		<h3 id="submitted-name"></h3>
+		<div class="sort">
+			<h2>Prophesy/Perceiver: <span class="res" id="p"></span></h2>
+			<h2>Ministry/Server: <span class="res" id="m"></span></h2>
+			<h2>Teaching: <span class="res" id="t"></span></h2>
+			<h2>Exhorter: <span class="res" id="e"></span></h2>
+			<h2>Giver: <span class="res" id="g"></span></h2>
+			<h2>Leading/Administrator/Organizer: <span class="res" id="l"></span></h2>
+			<h2>Mercy/Compassion: <span class="res" id="c"></span></h2>
+		</div>
+		<div class="actions">
+			<div class="form-group contact">
+				<input type="name" class="form-control name" placeholder="Enter Name">
+			</div>
+			<div class="input-group contact">
+		      	<div class="input-group-addon">@</div>
+		      		<input class="form-control email" type="email" placeholder="Enter email">
+		    </div> 
+		  	<a id="send" class="btn btn-primary btn-lg btn-success" role="button">Share via Email</a><a tabindex="0" id="print" class="btn btn-primary btn-lg btn-success" data-toggle="popover" data-placement="top" data-trigger="focus" title="Enter your Name" data-content="<div class='form-group contact popover-contact'><input type='name' id='popover-name' class='form-control name' placeholder='Name'>
+		  	<a id='popover-print' class='btn btn-primary btn-lg btn-success popover-btn' role='button'>Print with Name</a> <a id='popover-cancel' class='btn btn-primary btn-lg btn-error popover-btn' role='button'>Cancel</a></div>">Print</a><a href="/mgs" class="btn btn-primary btn-lg" role="button">Reset Survey</a>
+			<div class="email-response"></div>
+		</div>
 	</div>
 </div>

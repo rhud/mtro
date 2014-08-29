@@ -24,6 +24,7 @@
 		
 		h1 {
 			color: white;
+			text-align: center;
 		}
 		blockquote {
 			background: white;
@@ -124,12 +125,58 @@
 	}
 }
 
+.contact {
+	display: inline-table;
+	width: 49%;
+	vertical-align: middle;
+	margin: 0px;
+}
+
+.email-response {
+	width: 100%;
+	padding: 20px;
+	border-radius: 4px;
+	p {
+		padding: 0px;
+		margin: 0px;
+	}
+}
+
+.actions {
+	padding: 20px;
+	margin: 20px 0;
+	border: 1px solid #eee;
+	border-radius: 3px;
+}
+
+.popover-contact {
+	width: 100%;
+}
+
+#popover-name, .popover-btn {
+	width: 100%;
+	margin: 5px 0px;
+}
+
+.popover {
+	margin-top: 0px;
+}
+
+h3#submitted-name {
+	border-bottom: 1px solid black;
+}
+
 @media (min-width: @screen-sm-min) {
 	.wrap {
 		.container {
 			padding: 0px 15px;
 			p {
 				padding: 0px;
+			}
+		}
+		&.intro {
+			h1 {
+				text-align: left;
 			}
 		}	
 		&.result {
@@ -169,7 +216,15 @@
 		padding: 6px 12px;
 	}
 	.btn {
+		margin: 2px 2px;
+	}
+	.rdio {
+		width: 100px;
 		margin: 2px 0px;
+	}
+	
+	.contact {
+		width: 200px;
 	}
 }
 
@@ -185,11 +240,9 @@
 	.wrap {
 		display: none;
 		&.result {
+			padding: 0px;
 			display: block;
-			.btn {
-				display: none;
-			}
-			#print {
+			.actions {
 				display: none;
 			}
 		}

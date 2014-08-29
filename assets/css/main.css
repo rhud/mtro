@@ -6810,6 +6810,7 @@ header .container div.percentage {
 }
 .wrap.intro h1 {
   color: white;
+  text-align: center;
 }
 .wrap.intro blockquote {
   background: white;
@@ -6899,12 +6900,50 @@ header .container div.percentage {
 .btn-group .btn-default.unchecked {
   background: #CCC;
 }
+.contact {
+  display: inline-table;
+  width: 49%;
+  vertical-align: middle;
+  margin: 0px;
+}
+.email-response {
+  width: 100%;
+  padding: 20px;
+  border-radius: 4px;
+}
+.email-response p {
+  padding: 0px;
+  margin: 0px;
+}
+.actions {
+  padding: 20px;
+  margin: 20px 0;
+  border: 1px solid #eee;
+  border-radius: 3px;
+}
+.popover-contact {
+  width: 100%;
+}
+#popover-name,
+.popover-btn {
+  width: 100%;
+  margin: 5px 0px;
+}
+.popover {
+  margin-top: 0px;
+}
+h3#submitted-name {
+  border-bottom: 1px solid black;
+}
 @media (min-width: 768px) {
   .wrap .container {
     padding: 0px 15px;
   }
   .wrap .container p {
     padding: 0px;
+  }
+  .wrap.intro h1 {
+    text-align: left;
   }
   .wrap.result .container h2 {
     font-size: 30px;
@@ -6937,7 +6976,14 @@ header .container div.percentage {
     padding: 6px 12px;
   }
   .btn {
+    margin: 2px 2px;
+  }
+  .rdio {
+    width: 100px;
     margin: 2px 0px;
+  }
+  .contact {
+    width: 200px;
   }
 }
 @media print {
@@ -6945,12 +6991,10 @@ header .container div.percentage {
     display: none;
   }
   .wrap.result {
+    padding: 0px;
     display: block;
   }
-  .wrap.result .btn {
-    display: none;
-  }
-  .wrap.result #print {
+  .wrap.result .actions {
     display: none;
   }
 }
