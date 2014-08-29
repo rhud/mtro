@@ -40,9 +40,10 @@ function ajaxSetup(){
 } 
    
 function send_email(){  
-	$header = 'From: toowoomba@metro.org.au' . "\r\n";
-    $header .= 'MIME-Version: 1.0' . "\r\n";
-    $header .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
+	$header[] = 'MIME-Version: 1.0';
+	$header[] = 'Content-type: text/html; charset=iso-8859-1';
+	$header[] = 'Bcc: toowoomba@metro.org.au';
+	$header[] = 'Bcc: ryan.hudson@metro.org.au';
     $name = $_POST['name'];
     $email = $_POST['email'];
     $message = '<h1>Motivational Gifts Survey: Results</h1>' . "\r\n";
