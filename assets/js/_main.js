@@ -113,57 +113,6 @@ var Roots = {
       			      			
       		});
       	}
-      	$("#send").click(function(){
-      		var name = $(".name").val();
-      		var email = $(".email").val();
-      		var message = $(".sort").html();
-      		
-      		var flag = 1;
-      		
-      		if(name === "") {
-      			$(".name").parent().removeClass("has-success");
-      			$(".name").parent().addClass("has-error");
-      			flag = 0;
-			} else {
-      			$(".name").parent().addClass("has-success");
-      			$(".name").parent().removeClass("has-error");
-      			flag = 1;
-      		}
-      		
-      		var email_reg = /^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/; 
-      		
-      		if(email === "" || !email_reg.test($.trim(email))){
-      		    $(".email").parent().removeClass("has-success");
-      		    $(".email").parent().addClass("has-error");     
-      		    flag = 0;      
-      		} else {
-  				$(".email").parent().addClass("has-success");
-  				$(".email").parent().removeClass("has-error");
-  				if(flag !== 0){
-  					flag = 1;
-  				}
-  			}
-      		
-      		if (flag === 0) {
-      			return false;
-      		}
-      		      		
-      		var data = 'name='+ name + '&email=' + email + '&message=' + message;
-      		
-      		$.ajax({
-      		    type: "POST",
-      		    url: "/wp-content/themes/mtro/sendmail.php",
-      		    data: data,
-      		    success: function() {
-      		        $(".email-response").html("<p>Your email has been sent successfully</p>"); 
-      		        $(".email-response").addClass("bg-success");
-      		    },
-      		    error: function() {
-      		    	$(".email-response").html("<p>We currently cannot deliver your email. We apologise for this inconvenience.</p>");
-      		    	$(".email-response").addClass("bg-danger");
-      		    }
-      		});
-      	});	
       	
       	$('[data-toggle="popover"]').popover({trigger: 'click',html: true});
       	
@@ -191,20 +140,42 @@ var Roots = {
 	      	}
       	});
       	
-      	
-      	
-      	
-      	
-      	//$("#print").popover();
-      	
-//      	$("#print").click(function() {
-//      		var name = $(".name").val();
-//      		
-//      		if(name === ""){
-//      			$("#print").popover();
-//      		}
-//      		//window.print();
-//      	});
+      	$("#send").click(function(){
+      		var name = $(".name").val();
+      		var email = $(".email").val();
+      		var message = $(".sort").html();
+      		
+      		var flag = 1;
+      		
+      		if(name === "") {
+      			$(".name").parent().removeClass("has-success");
+      			$(".name").parent().addClass("has-error");
+      			flag = 0;
+      		} else {
+      			$(".name").parent().addClass("has-success");
+      			$(".name").parent().removeClass("has-error");
+      			flag = 1;
+      		}
+      		
+      		var email_reg = /^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/; 
+      		
+      		if(email === "" || !email_reg.test($.trim(email))){
+      		    $(".email").parent().removeClass("has-success");
+      		    $(".email").parent().addClass("has-error");     
+      		    flag = 0;      
+      		} else {
+      			$(".email").parent().addClass("has-success");
+      			$(".email").parent().removeClass("has-error");
+      			if(flag !== 0){
+      				flag = 1;
+      			}
+      		}
+      		
+      		if (flag === 0) {
+      			return false;
+      		}
+      		ajaxSend(name, email, message);
+      	});	
     }
   },
   // Home page

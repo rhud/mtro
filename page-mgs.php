@@ -110,11 +110,11 @@ Template Name: MOTIVATIONAL GIFTS SURVEY
 		</div>
 		<div class="actions">
 			<div class="form-group contact">
-				<input type="name" class="form-control name" placeholder="Enter Name">
+				<input type="name" class="form-control name" placeholder="Enter Name" value="">
 			</div>
 			<div class="input-group contact">
 		      	<div class="input-group-addon">@</div>
-		      		<input class="form-control email" type="email" placeholder="Enter email">
+		      		<input class="form-control email" type="email" placeholder="Enter email" value="">
 		    </div> 
 		  	<a id="send" class="btn btn-primary btn-lg btn-success" role="button">Share via Email</a><a tabindex="0" id="print" class="btn btn-primary btn-lg btn-success" data-toggle="popover" data-placement="top" data-trigger="focus" title="Enter your Name" data-content="<div class='form-group contact popover-contact'><input type='name' id='popover-name' class='form-control name' placeholder='Name'>
 		  	<a id='popover-print' class='btn btn-primary btn-lg btn-success popover-btn' role='button'>Print with Name</a> <a id='popover-cancel' class='btn btn-primary btn-lg btn-error popover-btn' role='button'>Cancel</a></div>">Print</a><a href="/mgs" class="btn btn-primary btn-lg" role="button">Reset Survey</a>

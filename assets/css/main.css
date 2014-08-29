@@ -6910,6 +6910,7 @@ header .container div.percentage {
   width: 100%;
   padding: 20px;
   border-radius: 4px;
+  margin: 20px 0px 0px;
 }
 .email-response p {
   padding: 0px;

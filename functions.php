@@ -32,3 +32,54 @@ foreach ($roots_includes as $file) {
   require_once $filepath;
 }
 unset($file, $filepath);
+
+function ajaxSetup(){
+	wp_localize_script( 'function', 'my_ajax_script', array( 'ajaxurl' => admin_url( 'admin-ajax.php' ) ) );
+    wp_enqueue_script( 'function', get_template_directory_uri().'/assets/js/sendemail.js', 'jquery', true);
+    
+} 
+   
+function send_email(){  
+	$header = 'From: toowoomba@metro.org.au' . "\r\n";
+    $header .= 'MIME-Version: 1.0' . "\r\n";
+    $header .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
+    $name = $_POST['name'];
+    $email = $_POST['email'];
+    $message = '<h1>Motivational Gifts Survey: Results</h1>' . "\r\n";
+    $message .= $_POST['message'];	
+    
+    if(spamcheck($email)){
+    	if(wp_mail($email, "Motivational Gifts Survey: Results", $message, $header)){
+    		echo "success";
+    	} else {
+    		echo "failed";
+    	};
+    }
+    die();
+}
+
+function spamcheck($field) {
+  // Sanitize e-mail address
+  $field=filter_var($field, FILTER_SANITIZE_EMAIL);
+  // Validate e-mail address
+  if(filter_var($field, FILTER_VALIDATE_EMAIL)) {
+    return TRUE;
+  } else {
+    return FALSE;
+  }
+}
+
+add_action('template_redirect', 'ajaxSetup');
+add_action("wp_ajax_nopriv_send_email", "send_email");
+add_action("wp_ajax_send_email", "send_email");
+
+add_action('wp_head','pluginname_ajaxurl');
+function pluginname_ajaxurl() {
+?>
+<script type="text/javascript">
+var ajaxurl = '<?php echo admin_url('admin-ajax.php'); ?>';
+</script>
+<?php
+}
+
+    
