@@ -7052,6 +7052,9 @@ h3#submitted-name {
   .contact {
     width: 200px;
   }
+  .header-name {
+    left: 70px;
+  }
 }
 @media (min-width: 992px) {
   .wrap.result .container .notes {
