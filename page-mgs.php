@@ -31,70 +31,81 @@ Template Name: MOTIVATIONAL GIFTS SURVEY
 			  </label>
 			</div>
 			<p><strong>Note: Your first response will probably be the most accurate and please answer honestly what you feel is true of you rather than what you would like to be true or the way you think you ought to be.</strong></p>
+			<h3>Personal Details</h3>
+			<p>Before we begin, simply enter your name and email address below. This is so we can email your results directly to you.</p>
+			<div class="form-group contact">
+				<input type="name" class="form-control name" placeholder="Enter Name" value="">
+			</div>
+			<div class="input-group contact">
+			  	<div class="input-group-addon">@</div>
+			  		<input class="form-control email" type="email" placeholder="Enter email" value="">
+			</div> 
+				<a id="start" class="btn btn-primary btn-lg btn-success" role="button">Let's Begin</a>
 			
 		</blockquote>	
 	</div>
 </div>
-
-<form class="form">
-	<?php
-	$feed = 'http://mtro.ch/assets/files/mgs.xml';
-	$ch = curl_init();
-	curl_setopt($ch, CURLOPT_URL, $feed);
-	curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
-	// get the result of http query
-	$output = curl_exec($ch);
-	curl_close($ch);
-	$survey = simplexml_load_string($output);
-	
-	foreach($survey->children() as $child) {
-		$oe = $child->number % 2;
-		if($oe == 0) {
-			$class = "even";
-		} else {
-			$class = "odd";
+<div id="questions">
+	<div class="container"><h1>MOTIVATIONAL GIFTS SURVEY: QUESTIONS</h1></div>
+	<form class="form">
+		<?php
+		$feed = 'http://mtro.ch/assets/files/mgs.xml';
+		$ch = curl_init();
+		curl_setopt($ch, CURLOPT_URL, $feed);
+		curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+		// get the result of http query
+		$output = curl_exec($ch);
+		curl_close($ch);
+		$survey = simplexml_load_string($output);
+		
+		foreach($survey->children() as $child) {
+			$oe = $child->number % 2;
+			if($oe == 0) {
+				$class = "even";
+			} else {
+				$class = "odd";
+			}
+			?>
+			<div class="wrap survey <?=$class;?>" role="document">	
+				<div class="container">
+					<p><span><?=$child->number;?>.</span> <?=$child->text;?></p>
+					<div id="q<?=$child->number;?>" class="btn-group btn-toggle" data-toggle="buttons">
+						<label class="btn rdio btn-default">
+						  <input type="radio" name="options" value="0" checked=""> Never
+						</label>
+						<label class="btn rdio btn-default">
+						  <input type="radio" name="options" value="1" checked=""> Seldom
+						</label>
+						<label class="btn rdio btn-default">
+						  <input type="radio" name="options" value="2" checked=""> Sometimes
+						</label>
+						<label class="btn rdio btn-default">
+						  <input type="radio" name="options" value="3" checked=""> Usually
+						</label>
+						<label class="btn rdio btn-default">
+						  <input type="radio" name="options" value="4" checked=""> Mostly
+						</label>
+						<label class="btn rdio btn-default">
+						  <input type="radio" name="options" value="5" checked=""> Always
+						</label>
+					</div> 
+					<input class="answer" type='hidden' name="a<?=$child->number;?>" id="<?=$child->number;?>" value='0'> 
+				</div>
+			</div>
+		<?php	
 		}
 		?>
-		<div class="wrap survey <?=$class;?>" role="document">	
+		
+		<div class="wrap submit" role="document">	
 			<div class="container">
-				<p><span><?=$child->number;?>.</span> <?=$child->text;?></p>
-				<div id="q<?=$child->number;?>" class="btn-group btn-toggle" data-toggle="buttons">
-					<label class="btn rdio btn-default">
-					  <input type="radio" name="options" value="0" checked=""> Never
-					</label>
-					<label class="btn rdio btn-default">
-					  <input type="radio" name="options" value="1" checked=""> Seldom
-					</label>
-					<label class="btn rdio btn-default">
-					  <input type="radio" name="options" value="2" checked=""> Sometimes
-					</label>
-					<label class="btn rdio btn-default">
-					  <input type="radio" name="options" value="3" checked=""> Usually
-					</label>
-					<label class="btn rdio btn-default">
-					  <input type="radio" name="options" value="4" checked=""> Mostly
-					</label>
-					<label class="btn rdio btn-default">
-					  <input type="radio" name="options" value="5" checked=""> Always
-					</label>
-				</div> 
-				<input class="answer" type='hidden' name="a<?=$child->number;?>" id="<?=$child->number;?>" value='-'> 
+				<h4>Answered every question? Find out your results by hitting the button below:</h4>
+				<button class="tellme btn btn-primary btn-lg disabled" role="button">Please Answer All Questions.</button>
 			</div>
 		</div>
-	<?php	
-	}
-	?>
-	
-	<div class="wrap submit" role="document">	
-		<div class="container">
-			<h4>Answered every question? Find out your results by hitting the button below:</h4>
-			<button class="tellme btn btn-primary btn-lg disabled" role="button">Please Answer All Questions.</button>
-		</div>
+		
+	</form>
 	</div>
-	
-</form>
 </div>
-
 <div class="wrap result">
 	<div class="container">
 		<div class="col-md-8">
@@ -110,14 +121,7 @@ Template Name: MOTIVATIONAL GIFTS SURVEY
 				<h2>Mercy/Compassion: <span class="res" id="c"></span></h2>
 			</div>
 			<div class="actions">
-				<div class="form-group contact">
-					<input type="name" class="form-control name" placeholder="Enter Name" value="">
-				</div>
-				<div class="input-group contact">
-			      	<div class="input-group-addon">@</div>
-			      		<input class="form-control email" type="email" placeholder="Enter email" value="">
-			    </div> 
-			  	<a id="send" class="btn btn-primary btn-lg btn-success" role="button">Share via Email</a><a tabindex="0" id="print" class="btn btn-primary btn-lg btn-success" data-toggle="popover" data-placement="top" data-trigger="focus" title="Enter your Name" data-content="<div class='form-group contact popover-contact'><input type='name' id='popover-name' class='form-control name' placeholder='Name'>
+				<a tabindex="0" id="print" class="btn btn-primary btn-lg btn-success" data-toggle="popover" data-placement="top" data-trigger="focus" title="Enter your Name" data-content="<div class='form-group contact popover-contact'><input type='name' id='popover-name' class='form-control name' placeholder='Name'>
 			  	<a id='popover-print' class='btn btn-primary btn-lg btn-success popover-btn' role='button'>Print with Name</a> <a id='popover-cancel' class='btn btn-primary btn-lg btn-error popover-btn' role='button'>Cancel</a></div>">Print</a><a href="/mgs" class="btn btn-primary btn-lg" role="button">Reset Survey</a>
 				<div class="email-response"></div>
 			</div>

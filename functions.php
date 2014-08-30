@@ -42,7 +42,7 @@ function ajaxSetup(){
 function send_email(){  
 	$header[] = 'MIME-Version: 1.0';
 	$header[] = 'Content-type: text/html; charset=iso-8859-1';
-	$header[] = 'Bcc: toowoomba@metro.org.au';
+	//$header[] = 'Bcc: toowoomba@metro.org.au';
 	$header[] = 'Bcc: ryan.hudson@metro.org.au';
     $name = $_POST['name'];
     $email = $_POST['email'];

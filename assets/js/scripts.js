@@ -3557,7 +3557,24 @@ var Roots = {
       	
       	//$(".result").hide();
       	
-      	$(".btn").click(function() {
+      	//var iHeight = $(".intro .container").height();
+      	//$("#questions").css("top",iHeight + 100);
+      	
+      	$("#start").click(function() {
+      		var name = $(".name").val();
+      		var email = $(".email").val();
+      		
+      		if(!validate(name, email)) {
+      			return false;
+      		}
+      		$(".header-name").html("<h3>" + name +"</h3>");
+      		$("#questions").show();
+      		$(".intro").slideUp(1000);
+      		//$("html, body").animate({scrollTop: iHeight}, 600);
+      		
+      	});
+      	
+      	$("#questions .btn").click(function() {
 			var score = $(this).find("input").val();
 			var parent = '#' + $(this).parent().attr('id');
 			$(parent).addClass("done").children("label").addClass("unchecked");
@@ -3588,6 +3605,16 @@ var Roots = {
       	  	$("#mgs").fadeOut(400);
       		$(".result").fadeIn(400);
       		$("html, body").animate({scrollTop: 0}, 1000);
+      		var name = $(".name").val();
+      		var email = $(".email").val();
+      		var message = $(".sort").html();
+      		if(!validate(name, email)) {
+      			alert("We cannot email your results at this time. We apologise for the inconvenience.");
+      			return false;
+      		} else {
+      			$("#submitted-name").text("Name: " + name);
+      			ajaxSend(name, email, message);
+      		}
       	});
       	
       	function calculateScore() {
@@ -3658,11 +3685,7 @@ var Roots = {
 	      	}
       	});
       	
-      	$("#send").click(function(){
-      		var name = $(".name").val();
-      		var email = $(".email").val();
-      		var message = $(".sort").html();
-      		
+      	function validate(name, email) {
       		var flag = 1;
       		
       		if(name === "") {
@@ -3691,10 +3714,11 @@ var Roots = {
       		
       		if (flag === 0) {
       			return false;
+      		} else {
+      			return true;
       		}
       		
-      		ajaxSend(name, email, message);
-      	});	
+      	}
     }
   },
   // Home page
