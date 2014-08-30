@@ -3602,7 +3602,7 @@ var Roots = {
       	$(".form").submit(function( event ) {
       	  	event.preventDefault();
       	  	calculateScore();
-      	  	$("#mgs").fadeOut(400);
+      	  	$("#questions").fadeOut(400);
       		$(".result").fadeIn(400);
       		$("html, body").animate({scrollTop: 0}, 1000);
       		var name = $(".name").val();
