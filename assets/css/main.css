@@ -7040,6 +7040,9 @@ h3#submitted-name {
   .wrap.result .actions {
     display: none;
   }
+  .wrap.result .notes {
+    display: none;
+  }
 }
 html,
 body {
