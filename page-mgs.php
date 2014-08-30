@@ -34,11 +34,11 @@ Template Name: MOTIVATIONAL GIFTS SURVEY
 				<h3>Personal Details</h3>
 				<p>Before we begin, simply enter your name and email address below. This is so we can email your results directly to you.</p>
 				<div class="form-group contact">
-					<input type="name" class="form-control name" placeholder="Enter Name" value="Ryan Hudson">
+					<input type="name" class="form-control name" placeholder="Enter Name" value="">
 				</div>
 				<div class="input-group contact">
 				  	<div class="input-group-addon">@</div>
-				  		<input class="form-control email" type="email" placeholder="Enter email" value="ryan@hellohudson.com.au">
+				  		<input class="form-control email" type="email" placeholder="Enter email" value="">
 				</div> 
 					<a id="start" class="btn btn-primary btn-lg btn-success" role="button">Let's Begin</a>
 				
@@ -89,7 +89,7 @@ Template Name: MOTIVATIONAL GIFTS SURVEY
 							  <input type="radio" name="options" value="5" checked=""> Always
 							</label>
 						</div> 
-						<input class="answer" type='hidden' name="a<?=$child->number;?>" id="<?=$child->number;?>" value='0'> 
+						<input class="answer" type='hidden' name="a<?=$child->number;?>" id="<?=$child->number;?>" value='-'> 
 					</div>
 				</div>
 			<?php	
