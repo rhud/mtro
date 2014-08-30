@@ -52,7 +52,7 @@ var Roots = {
       		$(".header-name").html("<h3>" + name +"</h3>");
       		$("#questions").show();
       		$(".intro").slideUp(1000);
-      		//$("html, body").animate({scrollTop: iHeight}, 600);
+      		$("html, body").animate({scrollTop: 0}, 1000);
       		
       	});
       	
