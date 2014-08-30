@@ -6805,7 +6805,7 @@ header .container div.percentage {
   padding: 0px;
   border: none;
   margin: 50px 0px 0px;
-  height: 100%;
+  min-height: 100%;
   width: 100%;
   position: absolute;
   z-index: 99;
