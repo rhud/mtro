@@ -72,8 +72,8 @@ var Roots = {
 				}
 			});
 			var percentage = parseFloat((comp / 175) * 100).toFixed(1);
-			var perString = percentage + "% COMPLETE";
-			$(".percentage").text(perString);
+			var perString = "<h3>" + percentage + "% COMPLETE</h3>";
+			$(".percentage").html(perString);
 			//console.log(percentage + "%");
 			
 			if (uncomp === 0) {
