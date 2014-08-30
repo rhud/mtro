@@ -38,7 +38,7 @@ Template Name: MOTIVATIONAL GIFTS SURVEY
 				</div>
 				<div class="input-group contact">
 				  	<div class="input-group-addon">@</div>
-				  		<input class="form-control email" type="email" placeholder="Enter email" value="">
+				  		<input class="form-control email" type="email" placeholder="Enter Email" value="">
 				</div> 
 					<a id="start" class="btn btn-primary btn-lg btn-success" role="button">Let's Begin</a>
 				
