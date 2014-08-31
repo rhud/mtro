@@ -47,6 +47,7 @@ var Roots = {
       		var email = $(".email").val();
       		
       		if(!validate(name, email)) {
+      			$("body").animate({scrollTop:250}, '1000');
       			return false;
       		}
       		

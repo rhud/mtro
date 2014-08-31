@@ -25,7 +25,7 @@ Template Name: MOTIVATIONAL GIFTS SURVEY
 				    I am a volunteer at METRO Church Toowoomba.
 				  </label>
 				</div> 
-				<p>If you check the above box, your survey results along with your name and email address will be also sent to METRO Church Toowoomba and held in our church records by the Volunteer Pastor.</p>
+				<p>If you check the above box, your survey results along with your name and email address will be also sent to METRO Church Toowoomba and held in our church records by the Volunteer's Pastor.</p>
 				<a id="start" class="btn btn-primary btn-lg btn-success" role="button">Let's Begin</a>
 				
 			</blockquote>	
