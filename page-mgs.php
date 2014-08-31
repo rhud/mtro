@@ -31,8 +31,6 @@ Template Name: MOTIVATIONAL GIFTS SURVEY
 				  </label>
 				</div>
 				<p>Your first response will probably be the most accurate and please answer honestly what you feel is true of you rather than what you would like to be true or the way you think you ought to be.</p>
-				<h3>Collection of Data</h3>
-				<p><strong><span>Please note:</span> In proceeding with this survey, you give us permission to pass on the following survey results to the METRO Church Toowoomba Volunteer Coordinator, which will be held on our church records by the Volunteer Co-ordinator.</strong></p>
 				<h3>Personal Details</h3>
 				<p>Before we begin, simply enter your name and email address below. This is so we can email your results directly to you.</p>
 				<div class="form-group contact">
@@ -41,8 +39,16 @@ Template Name: MOTIVATIONAL GIFTS SURVEY
 				<div class="input-group contact">
 				  	<div class="input-group-addon">@</div>
 				  		<input class="form-control email" type="email" placeholder="Enter Email" value="">
+				</div>
+				<br />
+				<div class="checkbox vol">
+				  <label>
+				    <input type="checkbox" id="vol" value="1">
+				    I am a volunteer at METRO Church Toowoomba.
+				  </label>
 				</div> 
-					<a id="start" class="btn btn-primary btn-lg btn-success" role="button">Let's Begin</a>
+				<p>If you check the above box, your survey results will also be sent to METRO Church Toowoomba and held in our church records by the Volunteer Pastor.</p>
+				<a id="start" class="btn btn-primary btn-lg btn-success" role="button">Let's Begin</a>
 				
 			</blockquote>	
 		</div>

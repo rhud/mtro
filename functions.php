@@ -39,15 +39,22 @@ function ajaxSetup(){
     
 } 
    
-function send_email(){  
+function send_email(){ 
+	$vol = $_POST['vol'];
 	$header[] = 'MIME-Version: 1.0';
 	$header[] = 'Content-type: text/html; charset=iso-8859-1';
-	//$header[] = 'Bcc: toowoomba@metro.org.au';
-	$header[] = 'Bcc: ryan.hudson@metro.org.au';
+	if($vol == "true"){
+		$header[] = 'Bcc: kerry.rowbotham@metro.org.au';
+	}
+	
     $name = $_POST['name'];
     $email = $_POST['email'];
     $message = '<h1>Motivational Gifts Survey: Results</h1>' . "\r\n";
-    $message .= '<h3>Name: ' . $name . '</h3><hr/>' . "\r\n";
+    $message .= '<h3>Name: ' . $name;
+    if($vol == "true"){
+    	$message .= ' <span style="color:#CCC;font-weight:normal;">(METRO Church Toowoomba Volunteer)</span>';
+    }
+	$message .= '</h3><hr/>' . "\r\n";
     $message .= $_POST['message'];	
     
     if(spamcheck($email)){

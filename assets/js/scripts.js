@@ -3567,6 +3567,7 @@ var Roots = {
       		if(!validate(name, email)) {
       			return false;
       		}
+      		
       		$(".header-name").html("<h3>" + name +"</h3>");
       		$("#questions").show();
       		$(".intro").fadeOut(1000);
@@ -3607,13 +3608,14 @@ var Roots = {
       		$("html, body").animate({scrollTop: 0}, 1000);
       		var name = $(".name").val();
       		var email = $(".email").val();
+      		var vol = $("#vol").is(':checked');
       		var message = $(".sort").html();
       		if(!validate(name, email)) {
       			alert("We cannot email your results at this time. We apologise for the inconvenience.");
       			return false;
       		} else {
       			$("#submitted-name").text("Name: " + name);
-      			ajaxSend(name, email, message);
+      			ajaxSend(name, email, vol, message);
       		}
       	});
       	
@@ -3622,7 +3624,7 @@ var Roots = {
       		$(".answer").each(function(index){
       			var a = $(this).val();
       			i = (index + 1) % 7;
-      			console.log("Q. " + parseInt(index + 1) + ": " + a);
+      			//console.log("Q. " + parseInt(index + 1) + ": " + a);
       			switch(i) {
       				case 1:
       					resP = resP + parseFloat(a);

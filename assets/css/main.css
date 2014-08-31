@@ -6828,11 +6828,15 @@ header .container div.percentage h3 {
 .wrap.intro .btn-group {
   margin: 20px 0px;
 }
-.wrap.intro span {
+.wrap.intro .vol {
   color: white;
-  background: rgba(210, 22, 29, 0.75);
-  padding: 3px 5px;
+  background: rgba(210, 22, 29, 0.85);
+  padding: 10px;
   border-radius: 4px;
+  display: inline-block;
+}
+.wrap.intro .vol:hover {
+  background: #d2161d;
 }
 .wrap.survey {
   padding: 50px 0px 0px;
