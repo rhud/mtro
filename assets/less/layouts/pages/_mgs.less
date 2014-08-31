@@ -3,7 +3,7 @@
 }
 
 .btn-default:active, .btn-default.active {
-	background: red;
+	background: @red;
 	color: white;
 }
 
@@ -41,6 +41,12 @@
 		}
 		.btn-group {
 			margin: 20px 0px;
+		}
+		span {
+			color: white;
+			background: rgba(210, 22, 29, .75);
+			padding: 3px 5px;
+			border-radius: 4px;
 		}
 	}
 	&.survey {
@@ -144,7 +150,7 @@
 		border: none;
 		color: white;
 		&.active {
-			background: red !important;
+			background: @red !important;
 		}
 		&.unchecked {
 			background: #CCC;
@@ -269,7 +275,7 @@ h3#submitted-name {
 			color: #333333;
 			border-radius: 4px;
 			&.active {
-				background: red !important;
+				background: @red !important;
 				color: white !important;
 			}
 			&.unchecked {

@@ -30,7 +30,9 @@ Template Name: MOTIVATIONAL GIFTS SURVEY
 				    <input type="radio" name="options" value="5" checked=""> Always
 				  </label>
 				</div>
-				<p><strong>Note: Your first response will probably be the most accurate and please answer honestly what you feel is true of you rather than what you would like to be true or the way you think you ought to be.</strong></p>
+				<p>Your first response will probably be the most accurate and please answer honestly what you feel is true of you rather than what you would like to be true or the way you think you ought to be.</p>
+				<h3>Collection of Data</h3>
+				<p><strong><span>Please note:</span> In proceeding with this survey, you give us permission to pass on the following survey results to the METRO Church Toowoomba Volunteer Coordinator, which will be held on our church records by the Volunteer Co-ordinator.</strong></p>
 				<h3>Personal Details</h3>
 				<p>Before we begin, simply enter your name and email address below. This is so we can email your results directly to you.</p>
 				<div class="form-group contact">

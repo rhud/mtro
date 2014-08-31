@@ -6791,7 +6791,7 @@ header .container div.percentage h3 {
 }
 .btn-default:active,
 .btn-default.active {
-  background: red;
+  background: #cc2229;
   color: white;
 }
 .wrap {
@@ -6827,6 +6827,12 @@ header .container div.percentage h3 {
 }
 .wrap.intro .btn-group {
   margin: 20px 0px;
+}
+.wrap.intro span {
+  color: white;
+  background: rgba(210, 22, 29, 0.75);
+  padding: 3px 5px;
+  border-radius: 4px;
 }
 .wrap.survey {
   padding: 50px 0px 0px;
@@ -6925,7 +6931,7 @@ header .container div.percentage h3 {
   color: white;
 }
 .btn-group .btn-default.active {
-  background: red !important;
+  background: #cc2229 !important;
 }
 .btn-group .btn-default.unchecked {
   background: #CCC;
@@ -7032,7 +7038,7 @@ h3#submitted-name {
     border-radius: 4px;
   }
   .btn-group .btn-default.active {
-    background: red !important;
+    background: #cc2229 !important;
     color: white !important;
   }
   .btn-group .btn-default.unchecked {
