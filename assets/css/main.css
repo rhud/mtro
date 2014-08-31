@@ -6847,6 +6847,25 @@ header .container div.percentage h3 {
 .wrap.survey.even {
   background: #F6F6F6;
 }
+.wrap.survey.sample {
+  background: url(../img/smoke.jpg) center center;
+  -webkit-background-size: cover;
+          background-size: cover;
+  padding: 0px;
+}
+.wrap.survey.sample .container {
+  background: rgba(255, 255, 255, 0.25);
+}
+.wrap.survey.sample blockquote {
+  border: none;
+  background: white;
+  border-radius: 0px;
+  padding: 20px 0px;
+}
+.wrap.survey.sample h1 {
+  margin-left: 15px;
+  color: white;
+}
 .wrap.submit .container {
   padding: 0px 15px;
 }
@@ -7021,6 +7040,20 @@ h3#submitted-name {
   }
   .wrap.survey {
     padding: 20px 0px;
+  }
+  .wrap.survey.sample {
+    padding: 20px 0px;
+  }
+  .wrap.survey.sample .container {
+    margin: 0px auto;
+    border-radius: 4px;
+  }
+  .wrap.survey.sample blockquote {
+    border-radius: 4px;
+    padding: 20px 30px;
+  }
+  .wrap.survey.sample h1 {
+    margin-left: 0px;
   }
   .wrap.result .container h2 {
     font-size: 30px;

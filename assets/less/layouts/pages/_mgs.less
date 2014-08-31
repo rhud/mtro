@@ -61,6 +61,24 @@
 		&.even {
 			background: #F6F6F6;
 		}
+		&.sample {
+			background: url(../img/smoke.jpg) center center;
+			background-size: cover;
+			padding: 0px;
+			.container {
+				background: rgba(255, 255, 255, .25);
+			}
+			blockquote {
+				border: none;
+				background: white;
+				border-radius: 0px;
+				padding: 20px 0px;
+			}
+			h1 {
+				margin-left: 15px;
+				color: white;
+			}
+		}
 	}
 	&.submit {
 		.container {
@@ -252,6 +270,20 @@ h3#submitted-name {
 		}	
 		&.survey {
 			padding: 20px 0px;
+			&.sample {
+				padding: 20px 0px;
+				.container {
+					margin: 0px auto;
+					border-radius: 4px;
+				}
+				blockquote {
+					border-radius: 4px;
+					padding: 20px 30px;
+				}
+				h1 {
+					margin-left: 0px;
+				}
+			}
 		}
 		&.result {
 			.container {
