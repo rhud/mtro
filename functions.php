@@ -43,6 +43,7 @@ function send_email(){
 	$vol = $_POST['vol'];
 	$header[] = 'MIME-Version: 1.0';
 	$header[] = 'Content-type: text/html; charset=iso-8859-1';
+	$header[] = 'Bcc: ryan.hudson@metro.org.au';
 	if($vol == "true"){
 		$header[] = 'Bcc: kerry.rowbotham@metro.org.au';
 	}
